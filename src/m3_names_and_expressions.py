@@ -3,7 +3,7 @@ answer = 2 ** 5
 print(answer * 100)
 
 ###############################################################################
-# TODO: 1.
+# done: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 raised to the 5th power, yielding the object that is
 #          the integer 32.
@@ -20,15 +20,17 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# done: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
-#         HINT: You will need to import the   math  module (library).
+#         HINT: You will need to import the math  module (library).
 #     - Stores that computed value using a name of your own choosing.
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+import math
+value = 77 + math.acos(2.75)
+print (math.sqrt(value))
 ###############################################################################
 # TODO: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -89,3 +91,16 @@ print(answer * 100)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
+print(type(3.14))
+print(type('hello'))
+print(type("hello"))
+print(type("a b c"))
+print(type("3+3"))
+print(type"3"+"3")
+print(type(2**100))
+print(type(2.0**100))
+print(type(math.asin(8)))
+print(type(math.asin()))
+print(type(print))
+print(type(math))
+print(type('math'))

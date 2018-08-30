@@ -29,8 +29,8 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-value = 77 + math.acos(2.75)
-print (math.sqrt(value))
+value = 77 + math.cos(2.75)
+print(math.sqrt(value))
 ###############################################################################
 # DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -38,7 +38,8 @@ print (math.sqrt(value))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+value1= (41*88)+(4*math.cos(2))
+print(math.sqrt(value1))
 ###############################################################################
 # TODO: 4.
 #   Immediately below this _TODO_,
@@ -98,7 +99,7 @@ print(type("3+3"))
 print(type("3" + "3"))
 print(type(2**100))
 print(type(2.0**100))
-print(type(math.asin(8)))
+print(type(math.sin(8)))
 print(type(math.sin))
 print(type(print))
 print(type(math))

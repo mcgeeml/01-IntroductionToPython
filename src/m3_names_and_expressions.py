@@ -32,13 +32,12 @@ import math
 value = 77 + math.acos(2.75)
 print (math.sqrt(value))
 ###############################################################################
-# TODO: 3.
+# DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
 
 ###############################################################################
 # TODO: 4.
@@ -96,11 +95,11 @@ print(type('hello'))
 print(type("hello"))
 print(type("a b c"))
 print(type("3+3"))
-print(type"3"+"3")
+print(type("3" + "3"))
 print(type(2**100))
 print(type(2.0**100))
 print(type(math.asin(8)))
-print(type(math.asin()))
+print(type(math.sin))
 print(type(print))
 print(type(math))
 print(type('math'))
